@@ -25,6 +25,7 @@ function App() {
             <Route path='/cart' element={<Cart />} />
             <Route path='/detail/:id' element={<Detail />} />
             <Route path='/favorites' element={<Favorites />} />
+            
           </Routes>
         </BrowserRouter>
       </FavProvider>
